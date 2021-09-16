@@ -1,5 +1,13 @@
 <html>
   <body>
-    <div>Test button</div>
+    <center>
+      <audio id="audio" src="babyshark.mp3"></audio>
+      <img id="img" src="babyshark.png">
+    </center>
+    <script>
+      document.getElementById("img").addEventListener("click", function(){
+        document.getElementById("audio").play();
+      });
+    </script>
   </body>
 </html>
